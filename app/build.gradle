@@ -36,6 +36,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    // 네이버 지도 SDK
+    // 네이버 지도 SDK 의존성 선정
     implementation 'com.naver.maps:map-sdk:3.8.0'
 }
