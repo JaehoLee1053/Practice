@@ -17,10 +17,14 @@
             </intent-filter>
         </activity>
 
-        // 네이버 지도 클라이언트 ID 지
+        // 네이버 지도 클라이언트 ID 지원
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
             android:value="l54piw328g" />
     </application>
+
+    // 권한 설정
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
 </manifest>
