@@ -38,4 +38,7 @@ dependencies {
 
     // 네이버 지도 SDK 의존성 선정
     implementation 'com.naver.maps:map-sdk:3.8.0'
+
+    // FusedLocationSource 사용 위함
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
 }

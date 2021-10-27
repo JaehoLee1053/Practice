@@ -10,10 +10,10 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.IBinder;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
 import android.util.Log;
+
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 
 import static android.content.Context.LOCATION_SERVICE;
 
@@ -129,8 +129,8 @@ public class GpsTracker extends Service implements LocationListener {
     }
 
     public void stopUsingGPS() {
-        if(locationManager != null) {
-            if(locationManager != null) {
+        if (locationManager != null) {
+            if (locationManager != null) {
                 locationManager.removeUpdates(GpsTracker.this);
             }
         }
